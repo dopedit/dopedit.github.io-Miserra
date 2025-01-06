@@ -1,0 +1,115 @@
+{
+  "name": "ClaudAlxTools",
+  "description": "Suite de herramientas para desarrollo web y manipulación de contenido multimedia",
+  "version": "1.0.0",
+  "tools": [
+    {
+      "id": "video-scraper",
+      "name": "Video Scraper",
+      "description": "Extrae URLs de video de cualquier página web",
+      "icon": "🎥",
+      "difficulty": "Pro",
+      "features": [
+        "Detección de videos HTML5",
+        "Soporte para YouTube y Vimeo",
+        "Extracción de enlaces directos (mp4, webm, ogg)",
+        "Identificación de calidad y tipo de video",
+        "Vista previa de enlaces"
+      ],
+      "supportedPlatforms": [
+        "YouTube",
+        "Vimeo",
+        "HTML5 Video"
+      ]
+    },
+    {
+      "id": "code-analyzer",
+      "name": "Analizador de Código",
+      "description": "Analiza y mejora tu código HTML, CSS y JavaScript",
+      "icon": "⚡",
+      "difficulty": "Intermedio",
+      "features": [
+        "Análisis de sintaxis HTML",
+        "Validación de CSS",
+        "Detección de errores JavaScript",
+        "Sugerencias de mejora",
+        "Análisis en tiempo real"
+      ],
+      "supportedLanguages": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "analysisTypes": {
+        "html": [
+          "Estructura del documento",
+          "Atributos malformados",
+          "Accesibilidad básica",
+          "Elementos vacíos"
+        ],
+        "css": [
+          "Selectores vacíos",
+          "Propiedades inválidas",
+          "Balance de llaves"
+        ],
+        "javascript": [
+          "Sintaxis",
+          "Variables no utilizadas",
+          "Uso de console.log",
+          "Uso de eval()"
+        ]
+      }
+    },
+    {
+      "id": "url-decoder",
+      "name": "Decodificador URL",
+      "description": "Limpia y decodifica URLs complejas",
+      "icon": "🔗",
+      "difficulty": "Básico"
+    },
+    {
+      "id": "video-downloader",
+      "name": "Video Downloader",
+      "description": "Descarga videos en múltiples formatos y calidades",
+      "icon": "⬇️",
+      "difficulty": "Pro",
+      "features": [
+        "Soporte multi-plataforma",
+        "Selección de calidad",
+        "Múltiples formatos de salida",
+        "Configuración avanzada de audio",
+        "Seguimiento de progreso"
+      ],
+      "supportedFormats": [
+        "MP4",
+        "WebM"
+      ],
+      "supportedQualities": [
+        "720p HD",
+        "1080p Full HD",
+        "1440p 2K"
+      ],
+      "advancedSettings": {
+        "audioCodecs": [
+          "AAC",
+          "MP3",
+          "Opus"
+        ],
+        "bitrates": [
+          {
+            "label": "Alta",
+            "value": "256 kbps"
+          },
+          {
+            "label": "Media",
+            "value": "128 kbps"
+          },
+          {
+            "label": "Baja",
+            "value": "96 kbps"
+          }
+        ]
+      }
+    }
+  ]
+}
